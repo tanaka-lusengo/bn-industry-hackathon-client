@@ -9,42 +9,6 @@ import "./ListHome.scss";
 import { Button } from "../Button/Button";
 
 export default function ListHomeSell({ sellData }) {
-<<<<<<< HEAD
-  return (
-    <article className="list-home">
-      <div className="list-home__left-img-container">
-        <img
-          className="list-home__img"
-          src={sellData.image}
-          alt={sellData.title}
-        />
-      </div>
-      <div className="list-home__middle-text-container">
-        <h2 className="list-home__title">{sellData.title}</h2>
-        <h3 className="list-home__text">Category: {sellData.category}</h3>
-        <p className="list-home__text">{sellData.description}</p>
-        <p className="list-home__text">{sellData.quantity} available</p>
-        <p className="list-home__text">{sellData.price}</p>
-      </div>
-      <div className="list-home__button">
-        <Link to="/upload">
-          <Button buttonName="SELL" />
-        </Link>
-      </div>
-    </article>
-  );
-=======
-	const [inventory, getInventory] = useState([]);
-
-	useEffect(() => {
-		axios
-			.get(POST_NEW_MATERIAL_API_URL)
-			.then((res) => {
-				console.log(res);
-			})
-			.catch((err) => console.log("Error with server ", err));
-	}, []);
-
 	return (
 		<article className="list-home">
 			<div className="list-home__left-img-container">
@@ -68,5 +32,4 @@ export default function ListHomeSell({ sellData }) {
 			</div>
 		</article>
 	);
->>>>>>> 0b1e228f3a58c8f1997e8ac67b3efb9d14678e80
 }
