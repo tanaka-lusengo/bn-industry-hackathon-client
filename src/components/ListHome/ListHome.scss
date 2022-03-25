@@ -1,0 +1,15 @@
+.list-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__img {
+    height: 250px;
+    width: 250px;
+  }
+
+  &__middle-text-container {
+    width: 250px;
+    margin: 0 100px;
+  }
+}

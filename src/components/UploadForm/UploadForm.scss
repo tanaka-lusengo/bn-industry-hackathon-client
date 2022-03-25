@@ -1,0 +1,14 @@
+.form {
+  &__details-container {
+    margin: 0 auto;
+    text-align: center;
+  }
+  &__img {
+    height: 250px;
+    width: 250px;
+  }
+  &__buttons-container {
+    display: flex;
+    justify-content: center;
+  }
+}

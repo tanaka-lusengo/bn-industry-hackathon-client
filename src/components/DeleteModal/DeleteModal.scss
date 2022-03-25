@@ -1,0 +1,74 @@
+// @use "../../styles/variables" as *;
+// @use "../../styles/_partials/core/mixins" as *;
+// @use "../../styles/breakpoints" as *;
+
+// .modal {
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+
+//   &__content {
+//     margin: 0 auto;
+//     background-color: $white;
+//     box-shadow: 0rem 0.125rem 0.3125rem rgba(19, 24, 44, 0.1);
+//     height: 100vh;
+//   }
+//   &__img-container {
+//     display: flex;
+//     justify-content: flex-end;
+//     padding: 1.3125rem 1.3125rem 0 0;
+//   }
+//   &__header {
+//     margin: 0.3125rem 0 1rem 1rem;
+//   }
+//   &__body {
+//     margin: 0 1rem 23.8125rem;
+//   }
+//   &__body-content {
+//     height: 3.5rem;
+//   }
+//   &__footer {
+//     margin: 0 1rem;
+//     display: flex;
+//     justify-content: flex-end;
+//   }
+// }
+// @include tablet {
+//   .modal {
+//     background: rgba(19, 24, 44, 0.7);
+//     margin: 0;
+//     height: 100%;
+
+//     &__content {
+//       margin: 11.5625rem auto 0;
+//       height: 17.1875rem;
+//       width: 42rem;
+//       border-radius: 0.1875rem;
+//       background-color: $white;
+//       box-shadow: 0px 0.125rem 0.3125rem rgba(19, 24, 44, 0.1);
+//       overflow: hidden;
+//     }
+//     &__img-container {
+//       display: flex;
+//       justify-content: flex-end;
+//       padding: 1.3125rem 1.3125rem 0 0;
+//     }
+//     &__header {
+//       margin: 0.3125rem 0 1rem 4rem;
+//     }
+//     &__body {
+//       margin: 0 0 0 4rem;
+//     }
+//     &__body-content {
+//       height: 3.5rem;
+//       width: 34rem;
+//     }
+//     &__footer {
+//       margin: 2rem 4rem 2.5rem 0;
+//       display: flex;
+//       justify-content: flex-end;
+//     }
+//   }
+// }
