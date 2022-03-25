@@ -1,21 +1,17 @@
 .header {
-  text-align: center;
+  text-align: end;
   display: flex;
 
   &__container {
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 1150px;
   }
 
   &__item {
-    margin: 0 20px;
     text-decoration: none;
     color: black;
-  }
-
-  &__img-contaioner {
-    margin-left: 20px;
   }
 
   &__img {
@@ -28,7 +24,6 @@
 
   &__content {
     padding: 20px 0;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
   }

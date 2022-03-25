@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.scss";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Helen from "../../assets/images/fec7e1b577d082df8a3b81a3f9c82bc2.png";
 
 export default function Header() {
@@ -9,9 +9,6 @@ export default function Header() {
       <nav className="header__content">
         <div className="header__dummy"></div>
         <ul className="header__container">
-          <Link to="/home-sell">
-            <li className="header__item">Home</li>
-          </Link>
           <Link to="/upload">
             <li className="header__item">Your Inventory</li>
           </Link>

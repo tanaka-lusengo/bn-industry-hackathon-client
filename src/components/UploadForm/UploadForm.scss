@@ -1,5 +1,5 @@
 .form {
-  background-color: #efecfc;
+  background-color: #fdf2e1;
 
   &__details-container {
     margin: 0 124px;
@@ -22,10 +22,15 @@
     margin-right: 40px;
   }
 
+  &__text-title {
+    margin-bottom: 10px;
+  }
+
   &__img {
     height: 150px;
     width: 150px;
     border-radius: 10px;
+    margin-right: 20px;
   }
 
   &__middle-text-container {
@@ -71,5 +76,9 @@
 
   &__radio-label {
     margin-left: 10px;
+  }
+
+  &__buttons-content {
+    margin-bottom: 20px;
   }
 }

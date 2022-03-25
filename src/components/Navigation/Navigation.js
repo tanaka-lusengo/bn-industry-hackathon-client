@@ -19,7 +19,7 @@ export default function Navigation({ textInput }) {
             BUY
           </NavLink>
           <NavLink
-            to="/home-sell"
+            to="/upload"
             className={(isActive) =>
               "nav__item nav__item" + (!isActive ? "" : "--active")
             }

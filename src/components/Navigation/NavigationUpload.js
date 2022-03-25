@@ -11,7 +11,7 @@ export default function NavigationUpload({ textInput }) {
       <nav className="nav">
         <ul className="nav__list">
           <NavLink
-            to="/upload"
+            to="/home-buy"
             className={(isActive) =>
               "navUp__item navUp__item" + (!isActive ? "" : "--active")
             }

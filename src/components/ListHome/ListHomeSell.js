@@ -15,8 +15,8 @@ export default function ListHomeSell({ sellData }) {
       </div>
       <div className="list-home__middle-text-container">
         <h2 className="list-home__title">{sellData.title}</h2>
-        <h3 className="list-home__category">Category: {sellData.category}</h3>
-        <p className="list-home__description">{sellData.description}</p>
+        <h3 className="list-home__text">Category: {sellData.category}</h3>
+        <p className="list-home__text">{sellData.description}</p>
         <p className="list-home__text">{sellData.quantity} available</p>
         <p className="list-home__text">{sellData.price}</p>
       </div>

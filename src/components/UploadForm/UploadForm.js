@@ -1,9 +1,9 @@
 import React from "react";
 import "./UploadForm.scss";
 import steelImg from "../../assets/images/the-blowup-lqx_D7xIZ2o-unsplash.jpg";
+import timberImg from "../../assets/images/f44e60ddf398c5da18e1bdc24df7d17a.jpeg";
+import aluminium from "../../assets/images/b84242f4a865963d8bb20e939279e2b0.jpeg";
 import { Button } from "../Button/Button";
-import { Link } from "react-router-dom";
-import Navigation from "../Navigation/Navigation";
 
 export default function UploadForm({
   companyName,
@@ -30,31 +30,31 @@ export default function UploadForm({
               <img className="form__img" src={steelImg} alt="Steel" />
             </div>
             <div className="form__middle-text-container">
-              <h2 className="form__text">Steel</h2>
+              <h2 className="form__text-title">Steel</h2>
               <p className="form__text">
-                You have: 20 cubic meters of tubular steel In your inventory
+                You have: 0 tonnes of tubular steel In your inventory
               </p>
             </div>
           </div>
           <div className="form__top-section-container">
             <div className="form__img-container">
-              <img className="form__img" src={steelImg} alt="Steel" />
+              <img className="form__img" src={timberImg} alt="Steel" />
             </div>
             <div className="form__middle-text-container">
-              <h2 className="form__text">Steel</h2>
+              <h2 className="form__text-title">Timber</h2>
               <p className="form__text">
-                You have: 20 cubic meters of tubular steel In your inventory
+                You have: 50 5m planks In your inventory
               </p>
             </div>
           </div>
           <div className="form__top-section-container">
             <div className="form__img-container">
-              <img className="form__img" src={steelImg} alt="Steel" />
+              <img className="form__img" src={aluminium} alt="Steel" />
             </div>
             <div className="form__middle-text-container">
-              <h2 className="form__text">Steel</h2>
+              <h2 className="form__text-title">Aluminium</h2>
               <p className="form__text">
-                You have: 20 cubic meters of tubular steel In your inventory
+                You have: 73 standard sheets In your inventory
               </p>
             </div>
           </div>

@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 import UploadForm from "../../components/UploadForm/UploadForm";
 import { POST_NEW_MATERIAL } from "../../api/endpoints";
 import { handleUploadComplete } from "../../Utilities/helpers";
-import NavigationUpload from "../../components/Navigation/Navigation";
+import NavigationUpload from "../../components/Navigation/NavigationUpload";
 
 export default function Upload() {
   // Form functionality code block
