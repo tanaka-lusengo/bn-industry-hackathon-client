@@ -2,7 +2,7 @@ import React from "react";
 import "./Navigation.scss";
 import { NavLink } from "react-router-dom";
 
-export default function Navigation({ textInput }) {
+export default function NavigationUpload({ textInput }) {
   return (
     <>
       <header className="header">
@@ -11,17 +11,17 @@ export default function Navigation({ textInput }) {
       <nav className="nav">
         <ul className="nav__list">
           <NavLink
-            to="/home-buy"
+            to="/upload"
             className={(isActive) =>
-              "nav__item nav__item" + (!isActive ? "" : "--active")
+              "navUp__item navUp__item" + (!isActive ? "" : "--active")
             }
           >
             BUY
           </NavLink>
           <NavLink
-            to="/home-sell"
+            to="/upload"
             className={(isActive) =>
-              "nav__item nav__item" + (!isActive ? "" : "--active")
+              "navUp__item navUp__item" + (!isActive ? "" : "--active")
             }
           >
             SELL

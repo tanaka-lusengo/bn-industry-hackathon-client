@@ -1,14 +1,75 @@
 .form {
+  background-color: #efecfc;
+
   &__details-container {
-    margin: 0 auto;
+    margin: 0 124px;
     text-align: center;
   }
-  &__img {
-    height: 250px;
-    width: 250px;
+
+  &__sub-title {
+    padding: 20px 124px 0;
+    margin-bottom: 24px;
   }
+
+  &__top-section {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  &__top-section-container {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 40px;
+  }
+
+  &__img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+  }
+
+  &__middle-text-container {
+    text-align: start;
+    width: 200px;
+  }
+
+  &__sub-heder {
+    margin: 20px 0;
+    text-align: start;
+  }
+
   &__buttons-container {
     display: flex;
     justify-content: center;
+  }
+
+  &__field-container {
+    display: flex;
+    margin-bottom: 24px;
+  }
+
+  &__label {
+    width: 100px;
+  }
+
+  &__label-title {
+    margin-right: 20px;
+    text-align: start;
+  }
+
+  &__input {
+    width: 375px;
+    border: none;
+    height: 30px;
+    padding: 10px;
+  }
+
+  &__radio-input {
+    width: 20px;
+    margin-left: 10px;
+  }
+
+  &__radio-label {
+    margin-left: 10px;
   }
 }

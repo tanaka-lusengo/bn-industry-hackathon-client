@@ -2,14 +2,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 15px 0;
 
   &__img {
-    height: 250px;
-    width: 250px;
+    height: 165px;
+    width: 378px;
+    border-radius: 0.25rem;
+    object-fit: cover;
   }
 
   &__middle-text-container {
     width: 250px;
     margin: 0 100px;
+  }
+
+  &__text {
+    padding: 5px 0;
   }
 }

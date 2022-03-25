@@ -3,8 +3,9 @@ import "./Upload.scss";
 import axios from "axios";
 import { useHistory } from "react-router-dom";
 import UploadForm from "../../components/UploadForm/UploadForm";
-import POST_NEW_MATERIAL from "../../api/endpoints";
+import { POST_NEW_MATERIAL } from "../../api/endpoints";
 import { handleUploadComplete } from "../../Utilities/helpers";
+import NavigationUpload from "../../components/Navigation/Navigation";
 
 export default function Upload() {
   // Form functionality code block
@@ -101,6 +102,9 @@ export default function Upload() {
     <div className="upload-add-new">
       <div className="upload-add-new__content-layer">
         <div className="upload-add-new__content">
+          <NavigationUpload
+            textInput={`Sell existing inventory or add a new inventory.`}
+          />
           <UploadForm
             companyName="Company Name"
             title="Title"

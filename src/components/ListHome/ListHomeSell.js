@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./ListHome.scss";
+import { Button } from "../Button/Button";
 
 export default function ListHomeSell({ sellData }) {
   return (
@@ -21,7 +22,7 @@ export default function ListHomeSell({ sellData }) {
       </div>
       <div className="list-home__button">
         <Link to="/upload">
-          <button className="button__button">Sell</button>
+          <Button buttonName="SELL" />
         </Link>
       </div>
     </article>

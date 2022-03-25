@@ -37,7 +37,9 @@ export default function HomeSell() {
 
   return (
     <>
-      <Navigation />
+      <Navigation
+        textInput={`Welcome to Re-Struct. You can buy and sell your excess construction materials in real-time helping reduce your costs and your CO2 emissions. `}
+      />
       <div className="home home__sell">
         <nav className="home__nav">
           <ul className="home__nav-container">

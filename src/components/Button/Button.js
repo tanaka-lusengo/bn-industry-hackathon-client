@@ -1,5 +1,11 @@
 import "./Button.scss";
 
-export default function Button({ buttonName }) {
+const Button = ({ buttonName }) => {
   return <button className="button">{buttonName}</button>;
-}
+};
+
+const ButtonNav = ({ buttonName }) => {
+  return <button className="buttonNav ">{buttonName}</button>;
+};
+
+export { Button, ButtonNav };

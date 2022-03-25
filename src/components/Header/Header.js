@@ -1,17 +1,25 @@
 import React from "react";
 import "./Header.scss";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import Helen from "../../assets/images/fec7e1b577d082df8a3b81a3f9c82bc2.png";
 
 export default function Header() {
   return (
     <header className="header">
-      <div className="header__content">
-        <div className="header__logo-container">
+      <nav className="header__content">
+        <div className="header__dummy"></div>
+        <ul className="header__container">
           <Link to="/home-sell">
-            <h1 className="header__logo">Re-Struct</h1>
+            <li className="header__item">Home</li>
           </Link>
-        </div>
-      </div>
+          <Link to="/upload">
+            <li className="header__item">Your Inventory</li>
+          </Link>
+          <div className="header__img-contaioner">
+            <img className="header__img" src={Helen} alt="Helen" />
+          </div>
+        </ul>
+      </nav>
     </header>
   );
 }
