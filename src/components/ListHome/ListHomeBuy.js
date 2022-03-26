@@ -5,6 +5,7 @@ import { Button } from "../Button/Button";
 
 const ListHomeBuy = ({ itemData }) => {
 	const source = itemData.photo;
+	let date = new Date(itemData.date_added);
 	return (
 		<article className="list-home">
 			<div className="list-home__left-img-container">
@@ -18,7 +19,9 @@ const ListHomeBuy = ({ itemData }) => {
 				<p className="list-home__text">Price: {itemData.price}</p>
 				<p className="list-home__text">Location: {itemData.location}</p>
 				<p className="list-home__text">Phone: {itemData.phone_no}</p>
-				<p className="list-home__text">Date added {itemData.date_added}</p>
+				<p className="list-home__text">
+					Date added: {date.toLocaleDateString()}
+				</p>
 			</div>
 			<div className="list-home__button">
 				<Button buttonName="BUY" />

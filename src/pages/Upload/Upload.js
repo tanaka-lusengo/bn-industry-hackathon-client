@@ -21,14 +21,16 @@ export default function Upload() {
 		phoneNumberVal
 	) => {
 		return {
-			companyName: companyNameVal,
+			company_name: companyNameVal,
 			title: titleVal,
 			category: categoryVal,
 			quantity: quantityVal,
 			condition: conditionVal,
 			price: priceVal,
 			location: locationVal,
-			phone: phoneNumberVal,
+			phone_no: phoneNumberVal,
+			photo:
+				"https://www.checkatrade.com/blog/wp-content/uploads/2020/02/timber-treatment.jpg",
 		};
 	};
 
@@ -69,12 +71,11 @@ export default function Upload() {
 		e.preventDefault();
 		let form = e.target;
 		let companyNameVal = form.companyName.value;
-		let titleVal = form.streetAddress.value;
+		let titleVal = form.title.value;
 		let categoryVal = form.category.value;
-		let countryVal = form.country.value;
 		let quantityVal = form.quantity.value;
 		let conditionVal = form.condition.value;
-		let priceVal = form.priceNumber.value;
+		let priceVal = form.price.value;
 		let locationVal = form.location.value;
 		let phoneNumberVal = form.phone.value;
 		console.log(companyNameVal);
@@ -84,7 +85,6 @@ export default function Upload() {
 				companyNameVal,
 				titleVal,
 				categoryVal,
-				countryVal,
 				quantityVal,
 				conditionVal,
 				priceVal,
