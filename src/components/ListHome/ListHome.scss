@@ -1,0 +1,29 @@
+.list-home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 0;
+
+	&__img {
+		height: 225px;
+		width: 365px;
+		border-radius: 0.25rem;
+		object-fit: cover;
+	}
+
+	&__middle-text-container {
+		width: 450px;
+		margin: 20px 70px 20px 90px;
+	}
+
+	&__title {
+		font-family: Raleway;
+		size: 40px;
+		font-weight: 600;
+		line-height: 47px;
+	}
+
+	&__text {
+		padding: 5px 0;
+	}
+}

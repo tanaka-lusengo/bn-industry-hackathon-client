@@ -1,0 +1,34 @@
+@use "../../styles/_partials/core/mixins" as *;
+// @use "../../../styles/partials/core/variables" as *;
+
+.button {
+  @include height-width(2.375rem, 272px); // 36px
+  border-radius: 5px; // 20px
+  color: white;
+  background-color: #5db4ac;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0.125rem 0.313rem rgba(19, 24, 44, 0.1); // 2px 5px
+
+  &:hover {
+    cursor: pointer;
+    background-color: #384542;
+    color: white;
+  }
+}
+
+.buttonNav {
+  @include height-width(2.375rem, 100px); // 36px
+  border-radius: 1.25rem; // 20px
+  color: white;
+  background-color: #384542;
+  border: none;
+  outline: none;
+  // box-shadow: 0px 0.125rem 0.313rem rgba(19, 24, 44, 0.1); // 2px 5px
+
+  &:hover {
+    cursor: pointer;
+    background-color: #384542;
+    color: white;
+  }
+}
