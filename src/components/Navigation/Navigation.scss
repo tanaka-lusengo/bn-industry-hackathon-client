@@ -1,65 +1,66 @@
 @use "../../styles/_partials/core/mixins" as *;
+@use "../../styles/_partials/core/typography" as *;
 
 .header {
-  text-align: center;
-  font-family: Maitree;
+	text-align: center;
+	font-family: Raleway;
 
-  &__text {
-    width: 711px;
-    margin: 10px auto 20px;
-    font-family: Maitree;
-    font-size: 30px;
-    line-height: 45px;
-    height: 100px;
-  }
+	&__text {
+		width: 711px;
+		margin: 10px auto 20px;
+		font-family: Maitree;
+		font-size: 30px;
+		line-height: 45px;
+		height: 100px;
+	}
 }
 .nav {
-  &__list {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    border-bottom: 3px solid #fdf2e1;
-  }
+	&__list {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+		border-bottom: 3px solid #fdf2e1;
+	}
 }
 
 .nav__item {
-  @include height-width(2.375rem, 272px); // 36px
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  color: #384542;
-  background-color: #fdf2e1;
-  border: none;
-  outline: none;
-  box-shadow: 0px 0.125rem 0.313rem rgba(19, 24, 44, 0.1); // 2px 5px
-  text-align: center;
-  padding: 10px;
-  margin: 0 8px;
+	@include height-width(2.375rem, 272px); // 36px
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #384542;
+	background-color: #fdf2e1;
+	border: none;
+	outline: none;
+	box-shadow: 0px 0.125rem 0.313rem rgba(19, 24, 44, 0.1); // 2px 5px
+	text-align: center;
+	padding: 10px;
+	margin: 0 8px;
 }
 
 .nav__item--active {
-  background-color: #f4b540;
-  color: white;
+	background-color: #f4b540;
+	color: white;
 }
 
 .navUp__item {
-  @include height-width(2.375rem, 272px); // 36px
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  color: #384542;
-  background-color: #fdf2e1;
-  border: none;
-  outline: none;
-  box-shadow: 0px 0.125rem 0.313rem rgba(19, 24, 44, 0.1); // 2px 5px
-  text-align: center;
-  padding: 10px;
-  margin: 0 8px;
+	@include height-width(2.375rem, 272px); // 36px
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #384542;
+	background-color: #fdf2e1;
+	border: none;
+	outline: none;
+	box-shadow: 0px 0.125rem 0.313rem rgba(19, 24, 44, 0.1); // 2px 5px
+	text-align: center;
+	padding: 10px;
+	margin: 0 8px;
 }
 
 .navUp__item--active {
-  background-color: #f4b540;
-  color: white;
+	background-color: #f4b540;
+	color: white;
 }
